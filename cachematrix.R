@@ -33,13 +33,9 @@ cacheSolve <- function(x, ...) {
 
 
 #Solution
-#B <- matrix(c(1,2,3,4),2,2)
-
-#B1 <- makeCacheMatrix(B)
-#cacheSolve(B1) 
-
-# B1 <- makeCacheMatrix(B)
-# cacheSolve(B1)
-#[,1] [,2]
-#[1,]   -2  1.5
-#[2,]    1 -0.5
+# mat<-matrix(c(1,7,9,4),2,2)
+# mat1<-makeCacheMatrix(mat)
+# cacheSolve(mat1)
+#[,1]        [,2]
+#[1,] -0.06779661  0.15254237
+#[2,]  0.11864407 -0.01694915
