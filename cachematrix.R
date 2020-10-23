@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Caching the Inverse of a Matrix
 
 ## Creates a special "matrix" object that can cache its inverse
 
@@ -31,3 +30,16 @@ cacheSolve <- function(x, ...) {
         x$setinverse(inv)
         inv
 }
+
+
+#Solution
+#B <- matrix(c(1,2,3,4),2,2)
+
+#B1 <- makeCacheMatrix(B)
+#cacheSolve(B1) 
+
+# B1 <- makeCacheMatrix(B)
+# cacheSolve(B1)
+#[,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
